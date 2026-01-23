@@ -64,10 +64,10 @@ export default function MovieDetails() {
 
           {/* Servers buttons */}
           <div className="servers">
-            <button onClick={() => setServer("vidlink")}>VidSrc</button>
-            <button onClick={() => setServer("filemoon")}>Filemoon</button>
-            <button onClick={() => setServer("vidplay")}>VidPlay</button>
-            <button onClick={() => setServer("carryon")}>Carry-On</button>
+            
+            {/*<button onClick={() => setServer("filemoon")}>Watch</button>*/}
+            
+            
           </div>
 
           {/* Video Player */}
@@ -77,7 +77,7 @@ export default function MovieDetails() {
           {/* لو بغينا نضيف سيرفرات آخرين، نقدر نعمل if لكل واحد */}
 
           {/* Watch Now button */}
-          <button className="watch-btn">▶ Watch Now</button>
+          <button className="watch-btn"  onClick={() => setServer("filemoon")}    >▶ Watch Now</button>
         </div>
       </div>
     </div>
