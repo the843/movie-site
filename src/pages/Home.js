@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getTrendingMovies, getPopularMovies, getLatestMovies, getPopularSeries } from "../api";
+import { getTrendingMovies,  getLatestMovies, getPopularSeries } from "../api";
 import "./Home.css";
 
 export default function Home() {
