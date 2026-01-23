@@ -1,3 +1,19 @@
+/* إضافة في Home.css */
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+
 .home {
   color: white;
   font-family: Arial, sans-serif;
