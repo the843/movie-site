@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
+import { getTrendingMovies, getLatestMovies, getPopularSeries } from "../api";
+
+
 
 import "./Home.css";
 
