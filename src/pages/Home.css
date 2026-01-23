@@ -1,0 +1,74 @@
+.home {
+  color: white;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  padding-bottom: 50px;
+}
+
+.featured {
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.featured .overlay {
+  background: linear-gradient(to right, rgba(0,0,0,0.8) 30%, transparent);
+  padding: 30px;
+  max-width: 700px;
+}
+
+.featured h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.featured p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.watch-btn {
+  background: #00acc1;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.movie-card {
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.movie-card p {
+  font-size: 12px;
+  color: gold;
+}
