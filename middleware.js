@@ -1,4 +1,3 @@
-// ملف middleware.js - مسؤول على redirect / rewrites للـ movies
 import { NextResponse } from 'next/server';
 
 export function middleware(request) {
@@ -16,7 +15,6 @@ export function middleware(request) {
   return NextResponse.next();
 }
 
-// حدد matcher باش Middleware يشتغل على الروابط اللي بغيتي
 export const config = {
-  matcher: ['/movie/:slug*'],
+  matcher: ['/movie/:slug*'], // مهم جداً باش middleware يخدم غير على هاد المسارات
 };
