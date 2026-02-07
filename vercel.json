@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/movie/:slug",
+      "destination": "/movie/:slug.html"
+    }
+  ]
+}
