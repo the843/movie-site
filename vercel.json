@@ -2,7 +2,6 @@
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
     { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/movie/:id", "destination": "/" },
-    { "source": "/series/:id", "destination": "/" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
