@@ -424,3 +424,37 @@ button {
   cursor: not-allowed;          /* ماوس ممنوع */
   box-shadow: none;
 }
+
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.site-logo {
+  height:2px;   /* صغيّر واحترافي */
+  width: auto;
+}
+
+.site-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  gap: 40px;
+}
+
+/* Logo الموقع */
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.site-logo {
+  height: 42px;
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.site-logo:hover {
+  transform: scale(1.1);
+}
+
+.site-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+.main-nav {
+  margin-left: auto;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ccc;
+  font-size: 15px;
+  transition: color 0.2s, transform 0.2s;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ff4500;
+  transform: translateY(-2px);
+}
+
+.nav-link.active {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+/* أيقونات SVG لكل قسم */
+.nav-icon {
+  font-size: 18px;
+}

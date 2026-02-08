@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
+
 import { 
   getTrendingMovies, 
   getLatestMovies, 
@@ -112,10 +113,12 @@ export default function Home() {
 
   return (
     <div className="home">
+      
       {/* Search Bar */}
       <div className="search-container" ref={searchRef}>
         <div className="search-bar">
           <div className="search-input-wrapper">
+          
             <input
               type="text"
               placeholder="ابحث عن أفلام، مسلسلات، ممثلين..."
@@ -227,7 +230,8 @@ export default function Home() {
           )}
         </section>
       )}
-
+    
+        
       {/* Featured */}
       {!showResults && (
         <>
@@ -238,6 +242,8 @@ export default function Home() {
             }}
           >
             <div className="overlay">
+              
+    
               <div className="featured-badge">🔥 الأكثر مشاهدة اليوم</div>
               <h1>{featuredMovie.title}</h1>
               <p className="featured-overview">{featuredMovie.overview}</p>
